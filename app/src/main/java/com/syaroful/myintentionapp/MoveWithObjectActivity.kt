@@ -27,6 +27,6 @@ class MoveWithObjectActivity : AppCompatActivity() {
             val text =
                 "Name : ${person.name.toString()},\nEmail : ${person.email},\nAge : ${person.age},\nLocation : ${person.city}"
             tvObject.text = text
-        }s
+        }
     }
 }
